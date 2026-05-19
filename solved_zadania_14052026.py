@@ -70,7 +70,9 @@ print("=== Zadanie 5 ===")
 
 product_price = float(input("Podaj cenę produktu: "))
 
-product_price_feedback = "Drogi" if product_price > 100 else "Tani"
+product_price_feedback = "Drogi" if product_price > 100 else "Tani" # Użycie ternary, jednolinijkowy warunek
+# utworzyłem zmienną product_price_feed_back i w niej zapisałem warunek, na podstawie tego warunku
+# zmienna ta będzie miała wartość "Drogi" lub "Tani"
 print(product_price_feedback)
 
 
